@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /about-me/
+permalink: /about/
 title: Tero Teelahti
 tags: [architect,developer,web,arctic,north pole]
 image:
