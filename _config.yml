@@ -11,16 +11,16 @@ owner:
   bio:            "Experienced architect with web and .NET focus. Northpole skier. Technology enthusiast."
   email:          tero+blog@teelahti.fi
   # Social networking links used in footer. Update and remove as you like.
-  twitter:        https://twitter.com/teelahti        
+  twitter:        teelahti        
   facebook:       
-  github:         https://github.com/teelahti
+  github:         teelahti
   stackexchange:  
-  linkedin:       http://fi.linkedin.com/in/teroteelahti/
+  linkedin:       teroteelahti
   instagram:      
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   
+  google_plus:   https://plus.google.com/+TeroTeelahti
 
 # Background image to be tiled on all pages
 background: ps_neutral.png

@@ -1,33 +1,23 @@
 ---
 layout: page
-permalink: /about/
+permalink: /about-me/
 title: About the Theme
-tags: [Jekyll, theme, modern, minimal, responsive]
+tags: [architect,developer,web,arctic,north pole]
 image:
   feature: abstract-5.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
 share: true
 ---
 
-They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing my first two themes [on Github](http://github.com/mmistakes), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory...
+## Solution developer/Architect
 
-## What HPSTR brings to the table:
+For over 15 years I have worked as a consultant in customer projects, lately mainly in government and financial sectors. During my career I have specialized in solution architecture, web development, and some MS Server products. I have worked with lots of interesting people on-shore and off-shore, and I get kicks from learning from them and to be able to coach them myself. Lately I have also started to widen the audience a bit by presenting for bigger audiences and by [finally]({{ site.url }}/blog/hello-world) having my own blog. 
 
-* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
-* Gracefully degrads in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
-* Modern and minimal design.
-* Sweet animated menu.
-* Background image support.
-* Readable typography to make your words shine.
-* Support for large images to call out your favorite posts.
-* Comments powered by [Disqus](http://disqus.com) if you choose to enable.
-* Simple and clear permalink structure[^1].
-* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
-* Simple [custom 404 page]({{ site.url }}/404.html) to get you started.
-* Stylesheets for Pygments and Coderay [syntax highlighting]({{ site.url }}/code-highlighting-post/) to make your code examples look snazzy
-* [Grunt](http://gruntjs.com) build script for easy theme development
+I'm a strong believer of software quality and I try to enforce that with all the ways I can. At times that is hard in client facing timeboxed projects, but I do not see any other way in trying to keep our industry trustworthy.
 
-<div markdown="0"><a href="{{ site.url }}/theme-setup" class="btn btn-info">Install the Theme</a></div>
+I'm an obsessed tech industry follower. Some buzzwords that currently interest and keep me busy include (but are not limited to): C#, ASP.NET, MVC, Razor, Azure, Linq, HTML5, JavaScript, RavenDB, Messaging, CQRS, Event sourcing. 
 
-[^1]: Example: *domain.com/category-name/post-title*
+I am Microsoft Certified Professional Developer for Enterprise Applications (MCPD EA 2 & 3.5, MCPD Web & Windows 4). Currently I work as a Chief architect at [Basware](http://www.basware.com). If you want to know more about my skills and my career you can download [my full resume (pdf)]({{ site.url }}/images/CV Tero Teelahti - web.pdf), or check any of the social sites listed on the menu/about.
+
+## Outdoor person, North Pole skier
+
+Although strictly thinking this has nothing to do with my professional life, it still affects me as a person and coworker and thus is hard to leave unmentioned. I have done lots of sports in my life, and quite a lot of nice trips around the world. The ultimatum of this all was an unsupported expedition to the North Pole at 2006 with a group of seven skiers. The old site is still live, you can check www.pohjoisnapa.fi if you want to learn more.
