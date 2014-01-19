@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /about-me/
-title: About the Theme
+title: Tero Teelahti
 tags: [architect,developer,web,arctic,north pole]
 image:
   feature: abstract-5.jpg
