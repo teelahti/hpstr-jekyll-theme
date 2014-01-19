@@ -4,7 +4,7 @@ permalink: /about/
 title: Tero Teelahti
 tags: [architect,developer,web,arctic,north pole]
 image:
-  feature: about-headimage.jpg
+  feature: about-feature.jpg
 share: true
 ---
 
