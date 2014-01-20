@@ -9,13 +9,13 @@ comments: true
 share: true
 ---
 
-In the project I recently worked for our solution’s web interface froze every now and then. This problem had been going on for a while, but every time the problem went away by itself without any intervention. No problem, until the issue escalated even to developer workstations, making them slow.
+In the project I recently worked for our solution's web interface froze every now and then. This problem had been going on for a while, but every time the problem went away by itself without any intervention. No problem, until the issue escalated even to developer workstations, making them slow.
 
 ## Investigation
 
 The problem was easily pinpointed to be at the service layer (IIS WAS hosted). Investigation was started by adding more application pools, and immediately the responsiveness of the service increased. The main reason being that worker processes were restarted, but we did not know it then. Gladly we knew that this was not a fix, just a temporary cure, there was still something badly wrong.
 
-So my coworker used some of his parallel Linq magic to create a denial of service test that targeted our service layer. Then we ran it… and our service died in 15 seconds on database connection pool problems. To check whether this really was a connection pool issue we increased connection pool size, but with no noticeable impact. Also, on some tests the service died immediately after 2 seconds. This was clearly not a connection pool problem.
+So my coworker used some of his parallel Linq magic to create a denial of service test that targeted our service layer. Then we ran it... and our service died in 15 seconds on database connection pool problems. To check whether this really was a connection pool issue we increased connection pool size, but with no noticeable impact. Also, on some tests the service died immediately after 2 seconds. This was clearly not a connection pool problem.
 
 Then we started to gather some performance data. We used performance monitor and resource monitor. Here is a screenshot from task manager presenting one server after a days use:
 
@@ -26,7 +26,7 @@ Notice anything strange? Here is the situation after worker process were restart
 > Original image lost at some blog conversion, sorry. This image showed a decent amount of threads on a system.
 
 Clearly the amount of threads explodes during use. That was very strange since all our threads are managed by trusted Windows Process Activation Services. Except that we had some custom thread handling on one place only, a logger class called ThreadedLogger that calls (heavy) logging in a background thread, and manages those threads itself. This class was adapted from some good 
-[]Stackoverflow answers](http://stackoverflow.com/questions/1181561/how-to-effectively-log-asynchronously)):
+[Stackoverflow answers](http://stackoverflow.com/questions/1181561/how-to-effectively-log-asynchronously)):
 
 {% highlight csharp %}
 public abstract class ThreadedLogger<T> : IDisposable
@@ -77,7 +77,7 @@ Nice and easy? Except that was a perfect way to shoot yourself in the foot with 
 The fix?
 
 Nice and easy: just changed the registration of logger class to singleton. This is the 
-good part of IoC containers: they provide a Single Point of Fix™ for this kind of issues:
+good part of IoC containers: they provide a Single Point of Fix(tm) for this kind of issues:
 
 {% highlight csharp %}
 container.RegisterType<ILogger, LoggerFacade>(

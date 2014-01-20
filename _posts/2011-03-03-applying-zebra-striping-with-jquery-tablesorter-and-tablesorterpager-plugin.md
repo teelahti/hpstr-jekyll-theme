@@ -14,7 +14,7 @@ when using [jQuery.tablesorter](http://tablesorter.com/docs/)) plugin together w
 applying the pager clears some properties from the table; In this case namely zebra striping. After 
 initialization first table page is not striped, but next ones are after the first table page change.
 
-I found some crazy complex solutions, like creating new widgets to replace the built in “zebra”, but 
+I found some crazy complex solutions, like creating new widgets to replace the built in "zebra", but 
 the good enough solution ended up being lot easier: asking tablesorter to reapply widget:
 
 {% highlight js %}
@@ -41,6 +41,6 @@ targetTable.trigger("applyWidgetId", "zebra");
 
 jQuery.tablesorter is outdated and not actively developed; If I could choose, I would go 
 for some other plugin like [datatables.net](http://www.datatables.net/) or 
-[soon-to-be-released](http://blog.jqueryui.com/2011/02/unleash-the-grid/) “official” 
+[soon-to-be-released](http://blog.jqueryui.com/2011/02/unleash-the-grid/) "official" 
 [jQuery UI grid](http://wiki.jqueryui.com/w/page/34246941/Grid). In this case I did not 
 have a choice.
