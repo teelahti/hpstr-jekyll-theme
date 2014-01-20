@@ -63,7 +63,7 @@ reason was how the code was instantiated.
 
 When service or web site starts, logger is registered into an IoC container:
 
-{% highlight c# %}
+{% highlight csharp %}
 
 container.RegisterType<ILogger, LoggerFacade>();
 
@@ -71,7 +71,7 @@ container.RegisterType<ILogger, LoggerFacade>();
 
 Then the logger is taken into use through dependency property or constructor injection:
 
-{% highlight c# %}
+{% highlight csharp %}
 
 [Dependency]
 public ILogger Logger { get; set; }
@@ -85,7 +85,7 @@ The fix?
 Nice and easy: just changed the registration of logger class to singleton. This is the 
 good part of IoC containers: they provide a Single Point of Fix™ for this kind of issues:
 
-{% highlight c# %}
+{% highlight csharp %}
 
 container.RegisterType<ILogger, LoggerFacade>(
     new ContainerControlledLifeTimeManager());
