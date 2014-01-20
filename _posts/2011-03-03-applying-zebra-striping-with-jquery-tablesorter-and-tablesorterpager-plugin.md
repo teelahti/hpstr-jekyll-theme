@@ -18,7 +18,6 @@ I found some crazy complex solutions, like creating new widgets to replace the b
 the good enough solution ended up being lot easier: asking tablesorter to reapply widget:
 
 {% highlight js %}
-
 var targetTable = $("table#some");
 targetTable
     .tablesorter(
@@ -38,7 +37,6 @@ targetTable
 // work if called directly in continuation 
 // to previous jQuery functions
 targetTable.trigger("applyWidgetId", "zebra");
-
 {% endhighlight %}
 
 jQuery.tablesorter is outdated and not actively developed; If I could choose, I would go 

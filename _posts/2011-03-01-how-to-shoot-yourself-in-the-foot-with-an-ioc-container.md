@@ -28,8 +28,7 @@ Notice anything strange? Here is the situation after worker process were restart
 Clearly the amount of threads explodes during use. That was very strange since all our threads are managed by trusted Windows Process Activation Services. Except that we had some custom thread handling on one place only, a logger class called ThreadedLogger that calls (heavy) logging in a background thread, and manages those threads itself. This class was adapted from some good 
 []Stackoverflow answers](http://stackoverflow.com/questions/1181561/how-to-effectively-log-asynchronously)):
 
-{% highlight c# %}
-
+{% highlight csharp %}
 public abstract class ThreadedLogger<T> : IDisposable
 {
     private Queue<action> queue = new Queue<action>();
@@ -51,7 +50,6 @@ public abstract class ThreadedLogger<T> : IDisposable
     
     // ...
 }
-
 {% endhighlight %}
 
 As seen from above, this class creates a new background thread and manages it by itself. 
@@ -64,18 +62,14 @@ reason was how the code was instantiated.
 When service or web site starts, logger is registered into an IoC container:
 
 {% highlight csharp %}
-
 container.RegisterType<ILogger, LoggerFacade>();
-
 {% endhighlight %}
 
 Then the logger is taken into use through dependency property or constructor injection:
 
 {% highlight csharp %}
-
 [Dependency]
 public ILogger Logger { get; set; }
-
 {% endhighlight %}
 
 Nice and easy? Except that was a perfect way to shoot yourself in the foot with an inversion of control container. Now every time this dependency is resolved a new thread is started, and that thread is never disposed. Since most of the dependencies are registered with RegisterType() instead of RegisterInstance(), it had been used also for the logger without any further thought.
@@ -86,8 +80,6 @@ Nice and easy: just changed the registration of logger class to singleton. This 
 good part of IoC containers: they provide a Single Point of Fix™ for this kind of issues:
 
 {% highlight csharp %}
-
 container.RegisterType<ILogger, LoggerFacade>(
     new ContainerControlledLifeTimeManager());
-
 {% endhighlight %}
