@@ -9,9 +9,9 @@ comments: true
 share: true
 ---
 
-A while ago [I blogged about forcing site rendering to be done with Internet Explorerís latest engine](/blog/disable-internet-explorer-compatibility-view-via-web-config). 
+A while ago [I blogged about forcing site rendering to be done with Internet Explorer‚Äôs latest engine](/blog/disable-internet-explorer-compatibility-view-via-web-config). 
 This feature is very [well documented by Microsoft](http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx). 
-Not that well documented is that adding the X-UA-Compatible header with value ìIE=edgeî does 
+Not that well documented is that adding the X-UA-Compatible header with value ‚ÄúIE=edge‚Äù does 
 only half of the job: it overrides document mode, but not browser mode, and therefore you 
 might end with situation like below - even if you carefully tried to avoid it by placing 
 the meta tag (I know, I just did).
