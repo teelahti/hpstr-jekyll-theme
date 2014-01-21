@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Windows 8 fix: Failed to schedule Software Protection service for re-start - 0x80070005
+title: "Windows 8 fix: Failed to schedule Software Protection service for re-start - 0x80070005"
 description: "Fixing an annoying Windows issue."
 permalink: /blog/windows-8-fix-failed-to-schedule-software-protection-service-for-re-start---0x80070005
 disqus_identifier: windows-8-fix-failed-to-schedule-software-protection-service-for-re-start---0x80070005
