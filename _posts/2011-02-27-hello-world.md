@@ -3,6 +3,7 @@ layout: post
 title: Hello world!
 description: "This is where it all started."
 permalink: /blog/hello-world
+disqus_identifier: hello-world
 modified: 
 tags: 
 comments: true
