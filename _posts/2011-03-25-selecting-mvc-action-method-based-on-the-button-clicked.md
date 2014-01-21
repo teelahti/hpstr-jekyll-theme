@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Selecting MVC action method based on the button clicked
 description: "Very common problem in form-heavy solutions is to be able to have one HTML form, but two different submit buttons for it. Learn the MVC way to do solve this."

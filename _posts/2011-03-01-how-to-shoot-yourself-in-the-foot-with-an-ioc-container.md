@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: How to shoot yourself in the foot with an IoC container
 description: "IoC containers are powerful but dangerous."
@@ -78,7 +78,7 @@ Nice and easy? Except that was a perfect way to shoot yourself in the foot with 
 The fix?
 
 Nice and easy: just changed the registration of logger class to singleton. This is the 
-good part of IoC containers: they provide a Single Point of Fix™ for this kind of issues:
+good part of IoC containers: they provide a Single Point of Fixâ„¢ for this kind of issues:
 
 {% highlight csharp %}
 container.RegisterType<ILogger, LoggerFacade>(

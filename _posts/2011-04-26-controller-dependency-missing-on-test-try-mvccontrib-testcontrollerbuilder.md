@@ -1,4 +1,4 @@
----
+ï»¿---
 layout: post
 title: Controller dependency missing on test? Try MvcContrib TestControllerBuilder
 description: "Use MvcContrib to help your unit test setups."
@@ -38,10 +38,10 @@ public void Demonstrate_ValidInput_Redirects()
 }
 {% endhighlight %}
 
-…only to get NullReferenceException, since you did not set everything up that is needed by 
-the UrlHelper class (controller’s Url property).
+â€¦only to get NullReferenceException, since you did not set everything up that is needed by 
+the UrlHelper class (controllerâ€™s Url property).
 
-To satisfy the basic dependencies for a controller you can use [MvcContrib’s](http://mvccontrib.codeplex.com/) 
+To satisfy the basic dependencies for a controller you can use [MvcContribâ€™s](http://mvccontrib.codeplex.com/) 
 TestControllerBuilder class like this:
 
 {% highlight csharp %}

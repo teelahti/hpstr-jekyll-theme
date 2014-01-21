@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: Applying zebra striping with jQuery tablesorter and tablesorterPager plugin
 description: "jQuery plugin to do zebra striping in unison with tablesorter plugin."
