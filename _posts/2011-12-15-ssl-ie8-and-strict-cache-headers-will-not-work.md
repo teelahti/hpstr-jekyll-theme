@@ -4,7 +4,7 @@ title: SSL, IE8 and strict cache headers (will not work)
 description: "Caching in IE8 is somewhat broken."
 permalink: /blog/ssl-ie8-and-strict-cache-headers-will-not-work
 modified:
-tags: [ASP.NET, mvc, caching]
+tags: [ASP.NET, mvc, caching, browsers]
 comments: true
 share: true
 ---

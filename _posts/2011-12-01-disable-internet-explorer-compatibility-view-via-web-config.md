@@ -5,7 +5,7 @@ description: "How to avoid new Internet Explorer trying to play too smart."
 permalink: /blog/disable-internet-explorer-compatibility-view-via-web-config
 disqus_identifier: disable-internet-explorer-compatibility-view-via-web-config
 modified:
-tags: [IIS, web]
+tags: [IIS, web, browsers]
 comments: true
 share: true
 ---
