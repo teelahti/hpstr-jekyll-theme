@@ -22,4 +22,4 @@ I created this on Finnish only, but changing the language is relatively easy
 you wish to play with the Finnish version, I host it at 
 [http://lue.teelahti.fi](http://lue.teelahti.fi). For my kids 
 I put this full screen, and it kept them occupied for as long as half an 
-hour (= eternity for kids).
+hour (= eternity for kids). 

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Techdays 2013 ñ SignalR
+title: Techdays 2013 ‚Äì SignalR
 description: "Recap of my SignalR presentation at Finnish Techdays 2013."
 permalink: /blog/techdays-2013-signalr
 modified:
@@ -28,11 +28,11 @@ All demo sources are available online, links below.
 
 ### Demo 1: Broadcasted HTML canvas drawing
 
-First demoís objective was to demonstrate what it takes to transform a simple drawing 
+First demo‚Äôs objective was to demonstrate what it takes to transform a simple drawing 
 canvas to be collective: everyone can draw on the same canvas as all actions are 
 broadcasted to all participants. More detailed explanation and 
 [sources are at GitHub](https://github.com/teelahti/TD2013SignalRReplication). The fun 
-part (for me) in this demo was, that I spent hours on ìgood enoughî canvas drawing 
+part (for me) in this demo was, that I spent hours on ‚Äúgood enough‚Äù canvas drawing 
 and broadcasting implementation, and only after I was done I noticed that SignalR 
 samples project has a near identical [DrawingPad sample](https://github.com/SignalR/SignalR/tree/master/samples/Microsoft.AspNet.SignalR.Hosting.AspNet.Samples/Hubs/DrawingPad).
 
@@ -40,11 +40,11 @@ samples project has a near identical [DrawingPad sample](https://github.com/Sign
 
 In this demo I showed a specific use case of visualizing frequently changing server side 
 data at browser. This could be amount of any business events, state of the runtime platform, 
-amount of messages flowing in message bus, etcÖ My demo had ìCPUî and ìNetworkî graphs, 
+amount of messages flowing in message bus, etc‚Ä¶ My demo had ‚ÄúCPU‚Äù and ‚ÄúNetwork‚Äù graphs, 
 although the data was random. This demo also included connecting other clients than 
 browsers to the same data source: I created a command prompt visualizer that displayed 
 exact same data than the web site graph. Full demo source and detailed explanation 
-[available at GitHub](https://github.com/teelahti/TD2013ServerVisualization).
+[available at GitHub](https://github.com/teelahti/TD2013ServerVisualization). 
 
 <figure>
 	<img src="/images/2013-03-12-image1.png" alt="Web UI showing realtime graph.">
@@ -72,9 +72,9 @@ TechDays I extracted the JavaScript bus code from the demo to a
 
 This demo finished the JavaScript bus (demo 3) concept by showing how it could be used in 
 a very normal business application scenario: user selects multiple items from a list 
-and sends them all at once to server for processing. Iíve seen many (failed) 
+and sends them all at once to server for processing. I‚Äôve seen many (failed) 
 implementations, where developers spend lots of time honing last milliseconds off 
-the operation to prevent timeouts or to match non-func requirementsÖ and then someone 
+the operation to prevent timeouts or to match non-func requirements‚Ä¶ and then someone 
 selects even more items from the list and files another bug about the operation being 
 too slow. The real solution is of course to do split list operation into a set of 
 separate one item operations, and do everything in the background.
