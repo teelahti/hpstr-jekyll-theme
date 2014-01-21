@@ -12,7 +12,7 @@ share: true
 Last year, when my kids got interested in learning to read and write, I decided to do what I tend to do: bring technology to the table. I created a simple web site that narrates input text, and shows navigable history of the given input on the page.
 
 <figure>
-	<img src="/images/2013-01-30-image1" alt="Simple narrating UI for kids.">
+	<img src="/images/2013-01-30-image1.png" alt="Simple narrating UI for kids.">
     <figcaption>Simple narrating UI for kids.</figcaption>
 </figure>
 
