@@ -37,7 +37,7 @@ public ActionResult Fruit(SampleModel model) {
 {% endhighlight %}
 
 That is not too bad, but when more choices are introduced it gets worse 
-and worse (i.e. more if-then-else’s). Solution for this is very similar 
+and worse (i.e. more if-then-else's). Solution for this is very similar 
 with the [ButtonAttribute approach](/blog/selecting-mvc-action-method-based-on-the-button-clicked): 
 introduce an attribute that takes form element name, and list of accepted values. If 
 there is a match the action method is selected, otherwise the search continues. Usage example:
@@ -73,7 +73,7 @@ Beware, that this method has two shortcomings:
 Usually this happens if you attempt to create one action method that picks only some values, 
 and then another without FormValue attribute that picks all the rest; when MVC framework faces 
 this situation and input values match the first, FormValue-decorated action method, it also 
-matches the one without decoration –> error. To fix this attributes must cover the whole set 
+matches the one without decoration -> error. To fix this attributes must cover the whole set 
 of choices.
 
 Regardless of the shortcomings I still think this is yet another valuable tool to keep my controllers thin.
