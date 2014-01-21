@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Selecting MVC action method based on any named form value
 description: "Route MVC form posts by form values to different action methods."

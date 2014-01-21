@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: How to shoot yourself in the foot with an IoC container
 description: "IoC containers are powerful but dangerous."

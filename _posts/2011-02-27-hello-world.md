@@ -1,4 +1,4 @@
-﻿---
+---
 layout: post
 title: Hello world!
 description: "This is where it all started."
