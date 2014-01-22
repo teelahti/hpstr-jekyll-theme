@@ -1,4 +1,4 @@
-title:            Teelahti
+title:            Tero Teelahti
 description:      Mostly development posts with web focus.
 disqus_shortname: betateelahtifi
 #Your site's domain goes here. Leave localhost server or blank when working locally.
@@ -20,7 +20,7 @@ owner:
   flickr:         
   tumblr:         
   # For Google Authorship https://plus.google.com/authorship
-  google_plus:   https://plus.google.com/+TeroTeelahti
+  google_plus:    https://plus.google.com/+TeroTeelahti
 
 # Background image to be tiled on all pages
 background: ps_neutral.png
@@ -29,7 +29,7 @@ background: ps_neutral.png
 google_analytics: UA-21701635-1  
 google_verify:      
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
-bing_verify:         
+bing_verify:      7CBFD0DF369147202A3CA03B4B3960CD         
 
 # Links to include in top navigation
 # For external links add external: true
