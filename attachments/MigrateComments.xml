@@ -16,7 +16,7 @@
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-720</wp:comment_id>
+        <wp:comment_id>comment-720</wp:comment_id>
         <wp:comment_author>Des</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -38,7 +38,7 @@
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-93</wp:comment_id>
+        <wp:comment_id>comment-93</wp:comment_id>
         <wp:comment_author>Konstantin</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -60,7 +60,7 @@
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-85</wp:comment_id>
+        <wp:comment_id>comment-85</wp:comment_id>
         <wp:comment_author>Sipke</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://www.skywalkersoftwaredevelopment.net/</wp:comment_author_url>
@@ -73,7 +73,7 @@
       </wp:comment>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-86</wp:comment_id>
+        <wp:comment_id>comment-86</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -82,12 +82,12 @@
         <wp:comment_content><![CDATA[Sipke, I agree: MVC is best that has happened for MS web developer community for a while. It taught lots of modern practices as you mention, and brought the two camps MS and Ruby et al. closer to each other.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-85</wp:comment_parent>
+        <wp:comment_parent>comment-85</wp:comment_parent>
       </wp:comment>	  
 	  
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-87</wp:comment_id>
+        <wp:comment_id>comment-87</wp:comment_id>
         <wp:comment_author>Konstantin</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -100,7 +100,7 @@
       </wp:comment>
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-88</wp:comment_id>
+        <wp:comment_id>comment-88</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -111,11 +111,11 @@
 In the end the time saved by dragging some controls to Web forms designer (which I have never done BTW) is lost when debugging and trying to get the last 20 % functionality done.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-87</wp:comment_parent>
+        <wp:comment_parent>comment-87</wp:comment_parent>
       </wp:comment>
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-94</wp:comment_id>
+        <wp:comment_id>comment-94</wp:comment_id>
         <wp:comment_author>Konstantin</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -124,11 +124,11 @@ In the end the time saved by dragging some controls to Web forms designer (which
         <wp:comment_content><![CDATA[I've actually fully transferred to MVC, but recently had to do a bit of work on nopCommerce (that is version of nopCommerce, which is based on web forms). I had a feeling that for that kind of module, web forms are better suited. I think that the projects like webformsmvp.codeplex.com show that there is still life in web forms, if you trully know what you are going to build and this system is a good candidate for web forms.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-88</wp:comment_parent>
+        <wp:comment_parent>comment-88</wp:comment_parent>
       </wp:comment>
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-95</wp:comment_id>
+        <wp:comment_id>comment-95</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -137,7 +137,7 @@ In the end the time saved by dragging some controls to Web forms designer (which
         <wp:comment_content><![CDATA[True, there is place for both, but myself I have made my choice. It all boils down to "do you understand web?". If yes --> MVC, otherwise WebForms. I have seen many ASP.NET WebForm developers struggling with MVC as they do not understand the concepts to begin with.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-94</wp:comment_parent>
+        <wp:comment_parent>comment-94</wp:comment_parent>
       </wp:comment>
 	</item>  
     <item>
@@ -149,7 +149,7 @@ In the end the time saved by dragging some controls to Web forms designer (which
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-109</wp:comment_id>
+        <wp:comment_id>comment-109</wp:comment_id>
         <wp:comment_author>John Bower</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://www.zode64.com/</wp:comment_author_url>
@@ -164,7 +164,7 @@ Anyway nice post and nice blog.]]></wp:comment_content>
       </wp:comment>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-110</wp:comment_id>
+        <wp:comment_id>comment-110</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -173,7 +173,7 @@ Anyway nice post and nice blog.]]></wp:comment_content>
         <wp:comment_content><![CDATA[Nice to help, this is the reason I started to blog: no one should need to debug for hours if someone else has done it already.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-109</wp:comment_parent>
+        <wp:comment_parent>comment-109</wp:comment_parent>
       </wp:comment>	  
 	</item>
     <item>
@@ -185,7 +185,7 @@ Anyway nice post and nice blog.]]></wp:comment_content>
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-77</wp:comment_id>
+        <wp:comment_id>comment-77</wp:comment_id>
         <wp:comment_author>Nathan Heskew</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://nathan.heskew.com</wp:comment_author_url>
@@ -201,7 +201,7 @@ It seems the blog archives were forgotten about with the change in 1.2 to use th
 	  
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-78</wp:comment_id>
+        <wp:comment_id>comment-78</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -210,11 +210,11 @@ It seems the blog archives were forgotten about with the change in 1.2 to use th
         <wp:comment_content><![CDATA[Good to hear that there is a reason for the weird behavior. Maybe I should create a formal bug out of this...]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-77</wp:comment_parent>
+        <wp:comment_parent>comment-77</wp:comment_parent>
       </wp:comment>
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-79</wp:comment_id>
+        <wp:comment_id>comment-79</wp:comment_id>
         <wp:comment_author>Bertrand Le Roy</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://weblogs.asp.net/bleroy</wp:comment_author_url>
@@ -223,11 +223,11 @@ It seems the blog archives were forgotten about with the change in 1.2 to use th
         <wp:comment_content><![CDATA[Definitely file a bug, yes :)]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-78</wp:comment_parent>
+        <wp:comment_parent>comment-78</wp:comment_parent>
       </wp:comment>
 	<wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-80</wp:comment_id>
+        <wp:comment_id>comment-80</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -237,12 +237,12 @@ It seems the blog archives were forgotten about with the change in 1.2 to use th
 http://orchard.codeplex.com/workitem/18064 and http://orchard.codeplex.com/workitem/18065]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-79</wp:comment_parent>
+        <wp:comment_parent>comment-79</wp:comment_parent>
       </wp:comment>	  
 	  
 	<wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-89</wp:comment_id>
+        <wp:comment_id>comment-89</wp:comment_id>
         <wp:comment_author>Leroy Vaughan</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://www.glvconsulting.com/</wp:comment_author_url>
@@ -260,7 +260,7 @@ Thanks.]]></wp:comment_content>
       </wp:comment>	
   	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-90</wp:comment_id>
+        <wp:comment_id>comment-90</wp:comment_id>
         <wp:comment_author>Leroy Vaughan</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://www.glvconsulting.com/</wp:comment_author_url>
@@ -269,11 +269,11 @@ Thanks.]]></wp:comment_content>
         <wp:comment_content><![CDATA[Actually, I just browsed that particular table in Visual Studio and there aren't any values in that table at all.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-89</wp:comment_parent>
+        <wp:comment_parent>comment-89</wp:comment_parent>
       </wp:comment>	
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-91</wp:comment_id>
+        <wp:comment_id>comment-91</wp:comment_id>
         <wp:comment_author>Tero Teelahti</wp:comment_author>
         <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
         <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
@@ -282,11 +282,11 @@ Thanks.]]></wp:comment_content>
         <wp:comment_content><![CDATA[Sorry, I haven't played with the newest Orchard version and don't know of any new blog problems introduced there.]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-89</wp:comment_parent>
+        <wp:comment_parent>comment-89</wp:comment_parent>
       </wp:comment>	 
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-96</wp:comment_id>
+        <wp:comment_id>comment-96</wp:comment_id>
         <wp:comment_author>Sebastien Ros</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -295,11 +295,11 @@ Thanks.]]></wp:comment_content>
         <wp:comment_content><![CDATA[I just pushed a fix for those issues ... available with next version]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-80</wp:comment_parent>
+        <wp:comment_parent>comment-80</wp:comment_parent>
       </wp:comment>		  
 	  <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-103</wp:comment_id>
+        <wp:comment_id>comment-103</wp:comment_id>
         <wp:comment_author>Steve Smith</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://ardalis.com/</wp:comment_author_url>
@@ -309,19 +309,19 @@ Thanks.]]></wp:comment_content>
 So, these fixes will be part of 1.4? Will there be a good upgrade story for 1.3->1.4?]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-96</wp:comment_parent>
+        <wp:comment_parent>comment-96</wp:comment_parent>
       </wp:comment>		  
 	</item>  
     <item>
       <title>Disable submit buttons on form submit with jQuery.validate and ASP.NET MVC 2</title>
-      <link>http://beta.teelahti.fi/blog/disable-submit-buttons-on-form-submit-with-jquery.validate-and-asp.net-mvc-2</link>
+      <link>http://teelahti.fi/blog/disable-submit-buttons-on-form-submit-with-jquery.validate-and-asp.net-mvc-2</link>
       <content:encoded><![CDATA[Hello world]]></content:encoded>
       <dsq:thread_identifier>disable-submit-buttons-on-form-submit-with-jquery.validate-and-asp.net-mvc-2</dsq:thread_identifier>
       <wp:post_date_gmt>2011-04-29 05:23:00</wp:post_date_gmt>
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-65</wp:comment_id>
+        <wp:comment_id>comment-65</wp:comment_id>
         <wp:comment_author>Konstantin</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -343,7 +343,7 @@ form.submit();
       </wp:comment>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-66</wp:comment_id>
+        <wp:comment_id>comment-66</wp:comment_id>
         <wp:comment_author>Konstantin</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -352,20 +352,20 @@ form.submit();
         <wp:comment_content><![CDATA[Addition to the previous comment - this script should be run between loading jquery.validate.js and jquery.validate.unobtrusive.js files, which makes it quite a dirty hack :)]]></wp:comment_content>
         <wp:comment_approved>1</wp:comment_approved>
         <!-- parent id (match up with wp:comment_id) -->
-        <wp:comment_parent>comment3-65</wp:comment_parent>
+        <wp:comment_parent>comment-65</wp:comment_parent>
       </wp:comment>	  
 	</item>
   
     <item>
       <title>How to shoot yourself in the foot with an IoC container</title>
-      <link>http://beta.teelahti.fi/blog/how-to-shoot-yourself-in-the-foot-with-an-ioc-container</link>
+      <link>http://teelahti.fi/blog/how-to-shoot-yourself-in-the-foot-with-an-ioc-container</link>
       <content:encoded><![CDATA[Hello world]]></content:encoded>
       <dsq:thread_identifier>how-to-shoot-yourself-in-the-foot-with-an-ioc-container</dsq:thread_identifier>
       <wp:post_date_gmt>2011-03-01 05:23:00</wp:post_date_gmt>
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-57</wp:comment_id>
+        <wp:comment_id>comment-57</wp:comment_id>
         <wp:comment_author>Miki</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -379,14 +379,14 @@ form.submit();
 	</item>
     <item>
       <title>Hello world</title>
-      <link>http://beta.teelahti.fi/blog/hello-world</link>
+      <link>http://teelahti.fi/blog/hello-world</link>
       <content:encoded><![CDATA[Hello world]]></content:encoded>
       <dsq:thread_identifier>hello-world</dsq:thread_identifier>
       <wp:post_date_gmt>2011-02-27 05:23:00</wp:post_date_gmt>
       <wp:comment_status>open</wp:comment_status>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-51</wp:comment_id>
+        <wp:comment_id>comment-51</wp:comment_id>
         <wp:comment_author>Apo</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url>http://www.hevoslaaksontalli.fi/ApoBlog</wp:comment_author_url>
@@ -405,7 +405,7 @@ Keep bloggin']]></wp:comment_content>
       </wp:comment>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-52</wp:comment_id>
+        <wp:comment_id>comment-52</wp:comment_id>
         <wp:comment_author>Janne</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -420,7 +420,7 @@ Looking forward to your postings! :-)]]></wp:comment_content>
       </wp:comment>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-53</wp:comment_id>
+        <wp:comment_id>comment-53</wp:comment_id>
         <wp:comment_author>Ilpo T</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
@@ -433,7 +433,7 @@ Looking forward to your postings! :-)]]></wp:comment_content>
       </wp:comment>
       <wp:comment>
         <dsq:remote></dsq:remote>
-        <wp:comment_id>comment3-54</wp:comment_id>
+        <wp:comment_id>comment-54</wp:comment_id>
         <wp:comment_author>Aali</wp:comment_author>
         <wp:comment_author_email></wp:comment_author_email>
         <wp:comment_author_url></wp:comment_author_url>
