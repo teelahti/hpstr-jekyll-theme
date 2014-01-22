@@ -1,0 +1,449 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dsq="http://www.disqus.com/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:wp="http://wordpress.org/export/1.0/"
+>
+  <channel>
+  
+    <item>
+      <title>Windows 8 fix: Failed to schedule Software Protection service for re-start - 0x80070005</title>
+      <link>http://teelahti.fi/blog/windows-8-fix-failed-to-schedule-software-protection-service-for-re-start---0x80070005</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>windows-8-fix-failed-to-schedule-software-protection-service-for-re-start---0x80070005</dsq:thread_identifier>
+      <wp:post_date_gmt>2013-04-17 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-720</wp:comment_id>
+        <wp:comment_author>Des</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2013-06-27 13:12:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[This helped me - Thank you!]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+	</item>
+  
+    <item>
+      <title>Disable Internet Explorer compatibility view via web.config</title>
+      <link>http://teelahti.fi/blog/disable-internet-explorer-compatibility-view-via-web-config</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>disable-internet-explorer-compatibility-view-via-web-config</dsq:thread_identifier>
+      <wp:post_date_gmt>2012-01-11 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-93</wp:comment_id>
+        <wp:comment_author>Konstantin</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-11 11:08:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Useful info, thanks :)]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+	</item>
+  
+    <item>
+      <title>How ASP.NET Web forms feels after 3 years of not using it</title>
+      <link>http://teelahti.fi/blog/how-asp.net-web-forms-feels-after-3-years-of-not-using-it</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>how-asp.net-web-forms-feels-after-3-years-of-not-using-it</dsq:thread_identifier>
+      <wp:post_date_gmt>2011-11-11 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-85</wp:comment_id>
+        <wp:comment_author>Sipke</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://www.skywalkersoftwaredevelopment.net/</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-11 21:48:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Hehe, I totally feel ya. After working 3 years with MVC, I would never want to go back. Altough if circumstances required me to build a WebForms application, I would definitely try out the MVP pattern and have all .aspx files be no more than simple views. I think MVC has made many of us much better programmers, due to the design patterns it promotes. Before MVC, I never heard of IoC / DI, Repository Pattern, testability, SRP, OCP, etc. Also had never used jQuery before.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-86</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-12 03:20:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Sipke, I agree: MVC is best that has happened for MS web developer community for a while. It taught lots of modern practices as you mention, and brought the two camps MS and Ruby et al. closer to each other.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-85</wp:comment_parent>
+      </wp:comment>	  
+	  
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-87</wp:comment_id>
+        <wp:comment_author>Konstantin</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-12 06:26:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Still, if you have no client-side logic and need a very simple wizard-like logic in a limited time, the productivity of web forms may be exactly what you need.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent></wp:comment_parent>
+      </wp:comment>
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-88</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-12 09:58:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[I must disagree: Right now I would not choose to do even a simple wizard with Web forms. Easiest solution would be to create one longish MVC form and use a Javascript plugin to turn that into a multipage form. And a real multipage form in MVC is not that difficult, a MVC action filter that takes care most of the logic is ~50 lines of code (been there, done that). 
+
+In the end the time saved by dragging some controls to Web forms designer (which I have never done BTW) is lost when debugging and trying to get the last 20 % functionality done.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-87</wp:comment_parent>
+      </wp:comment>
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-94</wp:comment_id>
+        <wp:comment_author>Konstantin</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-12-01 11:18:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[I've actually fully transferred to MVC, but recently had to do a bit of work on nopCommerce (that is version of nopCommerce, which is based on web forms). I had a feeling that for that kind of module, web forms are better suited. I think that the projects like webformsmvp.codeplex.com show that there is still life in web forms, if you trully know what you are going to build and this system is a good candidate for web forms.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-88</wp:comment_parent>
+      </wp:comment>
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-95</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-12-01 11:23:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[True, there is place for both, but myself I have made my choice. It all boils down to "do you understand web?". If yes --> MVC, otherwise WebForms. I have seen many ASP.NET WebForm developers struggling with MVC as they do not understand the concepts to begin with.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-94</wp:comment_parent>
+      </wp:comment>
+	</item>  
+    <item>
+      <title>Element cloning problems with jQuery mobile AJAX page transitions</title>
+      <link>http://teelahti.fi/blog/element-cloning-problems-with-jquery-mobile-ajax-page-transitions</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>element-cloning-problems-with-jquery-mobile-ajax-page-transitions</dsq:thread_identifier>
+      <wp:post_date_gmt>2011-08-29 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-109</wp:comment_id>
+        <wp:comment_author>John Bower</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://www.zode64.com/</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2012-05-21 22:54:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Got stuck on this very same thing and there is little about it on when searching so I am surprised there aren't more comments. I suspect the resource hit when using canvas on mobiles still puts a lot of people off.
+
+Anyway nice post and nice blog.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-110</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2012-05-22 02:30:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Nice to help, this is the reason I started to blog: no one should need to debug for hours if someone else has done it already.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-109</wp:comment_parent>
+      </wp:comment>	  
+	</item>
+    <item>
+      <title>Disable submit buttons on form submit with jQuery.validate and ASP.NET MVC 2</title>
+      <link>http://teelahti.fi/blog/fixing-some-orchard-cms-blog-problems</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>fixing-some-orchard-cms-blog-problems</dsq:thread_identifier>
+      <wp:post_date_gmt>2011-08-04 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-77</wp:comment_id>
+        <wp:comment_author>Nathan Heskew</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://nathan.heskew.com</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-08-04 13:56:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Bertrand might find this post particularly interesting since he's having (or recently had) problems with the archives in his blog.
+
+It seems the blog archives were forgotten about with the change in 1.2 to use the created date as *the* date the content was first published...]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+	  
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-78</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-08-04 15:30:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Good to hear that there is a reason for the weird behavior. Maybe I should create a formal bug out of this...]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-77</wp:comment_parent>
+      </wp:comment>
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-79</wp:comment_id>
+        <wp:comment_author>Bertrand Le Roy</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://weblogs.asp.net/bleroy</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-08-04 16:24:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Definitely file a bug, yes :)]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-78</wp:comment_parent>
+      </wp:comment>
+	<wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-80</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-08-05 04:11:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Issues created: 
+http://orchard.codeplex.com/workitem/18064 and http://orchard.codeplex.com/workitem/18065]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-79</wp:comment_parent>
+      </wp:comment>	  
+	  
+	<wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-89</wp:comment_id>
+        <wp:comment_author>Leroy Vaughan</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://www.glvconsulting.com/</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-19 08:12:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Any idea how I can get a tag cloud to show up in the latest version of Orchard? I set it up as a Blog and I don't have a blog archive at all. I haven't tried modifying the table yet though.
+
+I also don't have a tagcloud and I installed the Vandelay Industries 1.30 module (twice).
+
+
+Thanks.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent></wp:comment_parent>
+      </wp:comment>	
+  	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-90</wp:comment_id>
+        <wp:comment_author>Leroy Vaughan</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://www.glvconsulting.com/</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-19 08:15:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Actually, I just browsed that particular table in Visual Studio and there aren't any values in that table at all.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-89</wp:comment_parent>
+      </wp:comment>	
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-91</wp:comment_id>
+        <wp:comment_author>Tero Teelahti</wp:comment_author>
+        <wp:comment_author_email>tero@teelahti.fi</wp:comment_author_email>
+        <wp:comment_author_url>http://teelahti.fi</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-11-20 05:02:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Sorry, I haven't played with the newest Orchard version and don't know of any new blog problems introduced there.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-89</wp:comment_parent>
+      </wp:comment>	 
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-96</wp:comment_id>
+        <wp:comment_author>Sebastien Ros</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-12-01 18:45:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[I just pushed a fix for those issues ... available with next version]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-80</wp:comment_parent>
+      </wp:comment>		  
+	  <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-103</wp:comment_id>
+        <wp:comment_author>Steve Smith</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://ardalis.com/</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2012-01-26 18:50:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[@Sebastien,
+So, these fixes will be part of 1.4? Will there be a good upgrade story for 1.3->1.4?]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-96</wp:comment_parent>
+      </wp:comment>		  
+	</item>  
+    <item>
+      <title>Disable submit buttons on form submit with jQuery.validate and ASP.NET MVC 2</title>
+      <link>http://beta.teelahti.fi/blog/disable-submit-buttons-on-form-submit-with-jquery.validate-and-asp.net-mvc-2</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>disable-submit-buttons-on-form-submit-with-jquery.validate-and-asp.net-mvc-2</dsq:thread_identifier>
+      <wp:post_date_gmt>2011-04-29 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-65</wp:comment_id>
+        <wp:comment_author>Konstantin</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-05-03 04:29:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Had the same problem - it really seems to be pretty common, so strange it's not natively supported.
+I had a different solution:
+
+$.validator.setDefaults({
+submitHandler: function (form) {
+//disable controls here
+
+form.submit();
+}
+});]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-66</wp:comment_id>
+        <wp:comment_author>Konstantin</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-05-03 04:31:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Addition to the previous comment - this script should be run between loading jquery.validate.js and jquery.validate.unobtrusive.js files, which makes it quite a dirty hack :)]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>comment3-65</wp:comment_parent>
+      </wp:comment>	  
+	</item>
+  
+    <item>
+      <title>How to shoot yourself in the foot with an IoC container</title>
+      <link>http://beta.teelahti.fi/blog/how-to-shoot-yourself-in-the-foot-with-an-ioc-container</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>how-to-shoot-yourself-in-the-foot-with-an-ioc-container</dsq:thread_identifier>
+      <wp:post_date_gmt>2011-03-01 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-57</wp:comment_id>
+        <wp:comment_author>Miki</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-03-02 16:34:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Thanks for the interesting debug story!]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+	</item>
+    <item>
+      <title>Hello world</title>
+      <link>http://beta.teelahti.fi/blog/hello-world</link>
+      <content:encoded><![CDATA[Hello world]]></content:encoded>
+      <dsq:thread_identifier>hello-world</dsq:thread_identifier>
+      <wp:post_date_gmt>2011-02-27 05:23:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-51</wp:comment_id>
+        <wp:comment_author>Apo</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url>http://www.hevoslaaksontalli.fi/ApoBlog</wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-02-28 16:11:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Hello yourself.
+
+I needed to beat Jappe by having the very first comment. 
+
+Nice, ultra-simple UI. Haven't seen so simple design for a while now. Refreshing.
+
+Keep bloggin']]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-52</wp:comment_id>
+        <wp:comment_author>Janne</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-03-01 04:15:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Hello Tero!
+
+Looking forward to your postings! :-)]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-53</wp:comment_id>
+        <wp:comment_author>Ilpo T</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-03-01 14:53:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[And the next step is writing your very first book - or?]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+      <wp:comment>
+        <dsq:remote></dsq:remote>
+        <wp:comment_id>comment3-54</wp:comment_id>
+        <wp:comment_author>Aali</wp:comment_author>
+        <wp:comment_author_email></wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP></wp:comment_author_IP>
+        <wp:comment_date_gmt>2011-03-01 15:04:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Jippii, looking forward to interesting posts!]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <!-- parent id (match up with wp:comment_id) -->
+        <wp:comment_parent>0</wp:comment_parent>
+      </wp:comment>
+	  </item>
+  </channel>
+</rss>
