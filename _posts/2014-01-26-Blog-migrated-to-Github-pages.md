@@ -22,7 +22,7 @@ After forking the theme it was simply changing settings and creating first posts
 
 The outcome I have right now is a good looking, typographically easily readable and responsive blog layout. 
 
-<figure class=half>
+<figure class="half">
 	<img src="/images/2014-01-26-desktop-view.png" alt="Blog seen with a desktop browser.">
 	<img src="/images/2014-01-26-mobile-view.png" alt="Blog seen with a mobile browser.">
     <figcaption>Layout reacts to different screen sizes.</figcaption>
@@ -50,6 +50,8 @@ I lost site search in conversion: the new theme does not have proper search, and
 I also lost the time-based archives view I had. That is not too big of a loss, as that revealed too easily that I do not write enough blog posts. 
 
 I can't use Windows Live Writer to write posts anymore. That was a good tool, sadly abandoned by Microsoft. 
+
+I do not have any WYSIWYG editor, I must just hope that markdown converts into nice HTML view and all images fall into their proper places. This is not a big con, as I use only a limited set of layout styles on my blog posts.
 
 ## Speed? Upgrades?
 
