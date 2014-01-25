@@ -22,10 +22,9 @@ After forking the theme it was simply changing settings and creating first posts
 
 The outcome I have right now is a good looking, typographically easily readable and responsive blog layout. 
 
-<figure class="half">
-	<img src="/images/2014-01-26-desktop-view.png" alt="Blog seen with a desktop browser.">
-	<img src="/images/2014-01-26-mobile-view.png" alt="Blog seen with a mobile browser.">
-    <figcaption>Layout reacts to different screen sizes.</figcaption>
+<figure>
+	<img src="/images/2014-01-26-responsive-view.png" alt="Desktop and mobile views compared.">
+    <figcaption>Layout reacts to different screen sizes. Desktop and mobile views compared.</figcaption>
 </figure>
 
 There are some layout issues that I might tweak when I have time: 
