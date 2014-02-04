@@ -52,3 +52,6 @@ IIS configuration to add the correct header:
   </httpProtocol>
 </system.webserver>
 {% endhighlight %}
+
+### Update 4.2.2014
+Check my [newer post](/yet-another-take-on-internet-explorer-compatibility-mode/) for better solution that covers more IE versions. 
