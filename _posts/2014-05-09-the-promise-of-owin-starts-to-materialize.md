@@ -102,6 +102,10 @@ private static ClaimsIdentity TransformClaims(ClaimsIdentity identity)
 }
 {% endhighlight %}
 
+Kudos for [Dominick Baier](http://leastprivilege.com/) for his [clear post on this subject](http://leastprivilege.com/2014/02/21/test-driving-the-ws-federation-authentication-middleware-for-katana/) that helped me forward with sign in and out actions.
+
+## WebApi + OWIN
+
 At the same time I also moved Web API to OWIN based hosting, even though I actually run on IIS. Reasoning was the same than with claims auth: I find the configuration model better. 
 
 If you're an ASP.NET developer, I suggest you start experimenting with the OWIN pipeline. It will pay out. 
