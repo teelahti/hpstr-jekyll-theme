@@ -6,7 +6,7 @@ modified:
 tags: [profession]
 image: 
   feature: pharmacy.jpg
-  credit: "Apothecary Now" by Simon Harrod
+  credit: Apothecary Now by Simon Harrod
   creditlink: https://www.flickr.com/photos/sidibousaid/7064590663
 comments: true
 share: true
