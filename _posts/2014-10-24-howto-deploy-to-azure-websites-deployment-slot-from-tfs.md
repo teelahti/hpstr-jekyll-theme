@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Howto deploy to Azure website deployment slot from TFS
+title: How-to deploy to Azure website deployment slot from TFS
 description: "It is not immediately evident how Azure's web site deployment slots work."
 modified:
 tags: [azure,deployment]
