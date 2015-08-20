@@ -29,7 +29,7 @@ All demo sources are available online, links below.
 ### Demo 1: Broadcasted HTML canvas drawing
 
 First demo’s objective was to demonstrate what it takes to transform a simple drawing 
-canvas to be collective: everyone can draw on the same canvas as all actions are 
+canvas to be collaborative: everyone can draw on the same canvas as all actions are 
 broadcasted to all participants. More detailed explanation and 
 [sources are at GitHub](https://github.com/teelahti/TD2013SignalRReplication). The fun 
 part (for me) in this demo was, that I spent hours on “good enough” canvas drawing 
