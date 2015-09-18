@@ -136,15 +136,9 @@
 		-webkit-backface-visibility: hidden;
 		-moz-backface-visibility: hidden;
 		backface-visibility: hidden;
-<<<<<<< HEAD:assets/less/dl-menu.less
-		@media @medium {
-			.border-radius(3px,3px,3px,3px);
-			max-height: 700px;
-=======
 		@media #{$medium} {
 			@include border-radius(3px,3px,3px,3px);
 			max-height: 650px;
->>>>>>> a18d1e06fc007245a9774d15a46b2650ce5951a0:_sass/_dl-menu.scss
 		}
 	}
 	.dl-menu.dl-menu-toggle {
