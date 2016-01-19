@@ -36,8 +36,7 @@ doesn't work with go cmd, you just get very misguiding message:
 > package myorg.visualstudio.com/DefaultCollection/_git/MyRepo: 
 > unrecognized import path "myorg.visualstudio.com/DefaultCollection/_git/MyRepo"
 
-Adding the verbose flag (-v) to the command gives one extra tidbit of information 
-(added some linebreaks for readability):
+Adding the verbose flag (-v) to the command gives one extra tidbit of information:
 
 > Parsing meta tags from https://myorg.visualstudio.com/DefaultCollection/_git/MyRepo?go-get=1 (status code 203)
 > import "myorg.visualstudio.com/DefaultCollection/_git/MyRepo": 
