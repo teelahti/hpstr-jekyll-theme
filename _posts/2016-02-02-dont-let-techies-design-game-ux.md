@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Don't let techies design game user experience
-description: "I had some free time on my hands and wanted to play mobile games... but the games did not let me play (and made me angry)."
+description: "I had some free time on my hands and wanted to play mobile games... but the games did not let me play."
 modified:
 tags: [games,ux]
 image: 
