@@ -29,12 +29,13 @@ earthquake or tsunami or blown up data center). Instead, what irritated me, was 
 - times are not in local format; it should not come as a surprise to anyone that AM and PM are not universal notations.
 - I'm required to know both current time, and my time difference to PST time. 
 
-The last one is the worst: it puts extra cognitive load on the player. Personally I never figure out 
-when the maintenance break ends - I would have needed to open a timezone app or google 
+The last one is the worst: it puts extra cognitive load on the player. Personally I never figured out 
+when the maintenance break ends - I would have needed to open a timezone application or google 
 timezones to figure that out. 
 
 Instead of the above message I would like to see maintenance break expressed as duration, e.g. 
-"We are back online in 1 hour." 
+
+> We are back online in 1 hour.
 
 ## Vain glory
 
@@ -64,15 +65,18 @@ obligatory wait! And of course with another completely meaningless message: "Ins
     <figcaption>Installing what?</figcaption>
 </figure>
 
-I have the most powerful Android device made to day - the Nexus 6P - and this phase still took 10 minutes. 
+I have the most powerful Android device ever made - the Nexus 6P - and this phase still took 10 minutes. 
 And I have no idea what the game did for all that time; maybe it calculated prime numbers or did some 
 crowdsourced computing for public good? If there is this heavy computing involved, why isn't it 
 pre-computed on the game backend?
 
 As a player I would like to see a maximum of one wait with clear progress bar. It should take max minute or two 
 on a fast network, and have an uplifting message made for humans. I'm not an english native, but something 
-along the lines of "We are loading some high quality content for you and it will take a while, but it will 
-be awesome!". Alternatively no waiting at all for first time experience, and the downloads could continue 
+along the lines of 
+
+> We are loading some high quality content for you and it will take a while, but it will be awesome! 
+
+Alternatively no waiting at all for first time experience, and downloads could continue 
 in the background or when player advances in the game. 
 
 ## Result?
