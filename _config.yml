@@ -38,7 +38,7 @@ bing_verify:      7CBFD0DF369147202A3CA03B4B3960CD
 timezone:    Europe/Helsinki
 encoding:    UTF-8
 future:      true
-highlighter: pygments
+highlighter: rouge
 markdown:    kramdown
 gems:
   - jekyll-sitemap
