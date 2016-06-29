@@ -35,7 +35,7 @@ way to override browser mode on intranet is to use IE=9 instead IE=edge. I would
 have liked to live on the edge but there is nothing you can do. Here is the 
 IIS configuration to add the correct header:
 
-{% highlight xml %}
+```xml
 <system.webserver>
   <httpProtocol>
     <customHeaders>
@@ -51,7 +51,7 @@ IIS configuration to add the correct header:
     </customHeaders>
   </httpProtocol>
 </system.webserver>
-{% endhighlight %}
+```
 
 ### Update 4.2.2014
 Check my [newer post](/yet-another-take-on-internet-explorer-compatibility-mode/) for better solution that covers more IE versions. 

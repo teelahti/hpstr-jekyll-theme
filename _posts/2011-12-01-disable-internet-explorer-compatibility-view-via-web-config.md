@@ -15,9 +15,9 @@ I do not need that in my sites since I try to keep my HTML in good shape. Theref
 all projects I want to disable the feature since usually it breaks the layout. Disabling 
 compatibility view can be done by adding a meta tag to HTML head:
 
-{% highlight html %}
+```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-{% endhighlight %}
+```
 
 …or, as it turns out, 
 [by adding a custom HTTP header with the same content](http://msdn.microsoft.com/en-us/library/cc288325(v=vs.85).aspx). 
@@ -25,7 +25,7 @@ This HTTP-header-way is much better for me as I can include it in my
 [default web.config changes](http://teelahti.fi/blog/iis-7.x-cache-optimizations) I 
 use on almost every web project. 
 
-{% highlight xml %}
+```xml
 <system.webserver>
   <httpProtocol>
     <customHeaders>
@@ -40,7 +40,7 @@ use on almost every web project.
         value="IE=edge"/>
     </customHeaders>
   </httpProtocol>
-{% endhighlight %}
+```
 
 ### Update 4.2.2014
 Check my [newer post](/yet-another-take-on-internet-explorer-compatibility-mode/) for better solution that covers more IE versions. 

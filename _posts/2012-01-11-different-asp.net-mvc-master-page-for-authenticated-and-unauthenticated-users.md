@@ -11,7 +11,7 @@ share: true
 
 I guess this is a common problem: you need to have different web site layout for unauthenticated users. In simple cases this is very easy: just use masterPageFile attribute on views. But it gets more complex when you have views that are used in both authenticated and unauthenticated context. Luckily MVC lets you plug into almost anything, and this can be solved with an action filter like this:
 
-{% highlight csharp %}
+```csharp
 using System.Web.Mvc;
 /// <summary>
 /// A globally registered attribute to change view master 
@@ -39,6 +39,6 @@ public sealed class SwitchMasterPageFilter : IActionFilter
         }
     }
 }
-{% endhighlight %}
+```
 
 Remember to register the filter on your site bootstrapper and you are good to go.

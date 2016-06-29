@@ -31,7 +31,7 @@ Luckily with some source code reading one can find the method that does the real
 the actual type is not known on compile time: IMessage.MergeFrom(). Working Input and output formatters
 are below:
 
-{% highlight csharp %}
+```csharp
 // The input formatter reading request body and mapping it to given data object.
 public class ProtobufInputFormatter : InputFormatter
 {
@@ -99,12 +99,12 @@ public class ProtobufOutputFormatter : OutputFormatter
         return response.Body.WriteAsync(serialized, 0, serialized.Length);
     }
 }
-{% endhighlight %}
+```
 
 Formatters need to be registered for ASP.NET MVC to use them. This can be done
 in the ConfigureServices method:
 
-{% highlight csharp %}
+```csharp
 public void ConfigureServices(IServiceCollection services)
 {
     services.AddMvc();
@@ -113,7 +113,7 @@ public void ConfigureServices(IServiceCollection services)
         options.OutputFormatters.Add(new ProtobufOutputFormatter());
     });
 }
-{% endhighlight %}
+```
 
 And that's it, now you can control the desired format with requests by using either
 application/json or application/x-protobuf as content and accept types. You can

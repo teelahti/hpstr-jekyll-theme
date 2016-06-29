@@ -17,7 +17,7 @@ initialization first table page is not striped, but next ones are after the firs
 I found some crazy complex solutions, like creating new widgets to replace the built in "zebra", but 
 the good enough solution ended up being lot easier: asking tablesorter to reapply widget:
 
-{% highlight js %}
+```js
 var targetTable = $("table#some");
 targetTable
     .tablesorter(
@@ -37,7 +37,7 @@ targetTable
 // work if called directly in continuation 
 // to previous jQuery functions
 targetTable.trigger("applyWidgetId", "zebra");
-{% endhighlight %}
+```
 
 jQuery.tablesorter is outdated and not actively developed; If I could choose, I would go 
 for some other plugin like [datatables.net](http://www.datatables.net/) or 

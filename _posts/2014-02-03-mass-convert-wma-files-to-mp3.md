@@ -12,7 +12,7 @@ I've always been a music fan. Not a die-hard-fan, but one with lots of music and
 
 Fast forward almost ten years, and I have to admit I made a wrong decision: lossless WMA support is not on all devices and music servers I need. [Plex Media Server](https://plex.tv/) is the one I would need the support most, as I use it to serve all our family media to all connected devices. It became evident, that I need a copy of my lossless audio library in some other format. I decided, that this copy can be in lossy format so that it would be easier to copy to offline devices, like my car's radio system. And as the format needed to be something that was ubiquitously supported, I went for MP3. Luckily I found [a blog post by GeoffBa](http://geoffba.blogspot.fi/2011/04/converting-from-wma-to-mp3.html) that automated this task in PowerShell. I made some changes so that I can re-run the script to keep lossless and lossy folders synchronized. The script I used is attached below; I have used it about a year already without a glitch. I hope it helps someone else in my situation. 
 
-{% highlight PowerShell %}
+```PowerShell
 # Convert WMA files to MP3
 # Creates new mirrored folder structure
 # 
@@ -84,4 +84,4 @@ if ($failureCount -gt 0)
 	echo "List of failed files:"
 	echo $failedConversions
 }
-{% endhighlight %}
+```

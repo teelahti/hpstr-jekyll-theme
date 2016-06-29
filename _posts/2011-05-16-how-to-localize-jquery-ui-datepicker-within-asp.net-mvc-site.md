@@ -20,24 +20,24 @@ files on your script folder and include them on your page (or master page), here
 I’m using my favorite static content bundler [SquishIt](https://github.com/jetheredge/SquishIt)
 to combine and minify scripts:
 
-{% highlight csharp %}
+```csharp
 <%=SquishIt.Framework.Bundle.JavaScript()
     .Add("~/Scripts/jquery-ui-1.8.9.custom.min.js")
     .Add("~/Scripts/jquery.ui.datepicker-sv.js")
     .Add("~/Scripts/jquery.ui.datepicker-fi.js")
     .Render("~/Scripts/Site.#.js") %>
-{% endhighlight %}
+```
 
 Next you need to store language information somewhere for client side use. Good or 
 even best practice is to store that into HTML document root level with "lang" attribute:
 
-{% highlight html %}
+```html
 <html lang="<%=System.Threading.Thread.CurrentThread.CurrentUICulture.TwoLetterISOLanguageName %>">
-{% endhighlight %}
+```
 
 Finally date picker needs to be told which language to use. This should be done on page load like this (note, that to set default language en-US you need to give an empty string):
 
-{% highlight js %}
+```js
 $(function () {
     // Current document language is at HTML root tag
     var lang = $('html').attr("lang");
@@ -45,6 +45,6 @@ $(function () {
     $.datepicker.setDefaults(
         $.datepicker.regional[lang === 'en' ? '' : lang]);
 });
-{% endhighlight %}
+```
 
 That’s it! Now your date picker follows your site’s language. This same pattern can of course be used for other JS libraries.

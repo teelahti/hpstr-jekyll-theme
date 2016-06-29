@@ -22,11 +22,11 @@ list of archived blog posts came to life.
 Here is the SQL I used, note that the Id is specific to my scenario, if you use this change 
 it to your blogs Id:
 
-{% highlight sql %}
+```sql
 UPDATE       Orchard_Blogs_BlogArchivesPartRecord
 SET          BlogSlug = NULL
 WHERE        (Id = 25)
-{% endhighlight %}
+```
 
 ## Windows Live Writer + Orchard messes created and published dates
 
@@ -39,11 +39,11 @@ When you create blog posts with Windows Live Writer and put a historical Post da
 Not exactly what I was after. Time for another fast hack SQL; again, Container_id 
 is specific to my DB, don’t just blindly run this on your DB:
 
-{% highlight sql %}
+```sql
 UPDATE       Common_CommonPartRecord
 SET          PublishedUtc = CreatedUtc
 WHERE        (Container_id = 8)
-{% endhighlight %}
+```
 
 Now blog posts have correct times. This does not immediately fix the issue: 
 Orchard seems to update archive list e.g. when next blog post is created. I 

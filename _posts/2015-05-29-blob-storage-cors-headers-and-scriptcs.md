@@ -34,9 +34,9 @@ I was able to create a working version in an hour. My tech stack for this is
 you can just clone and run - ScriptCS takes care of the package restoration automatically. Tool supports dumping current 
 values to console, adding CORS rules, and clearing rules. And the syntax is easy enough for anyone to use:
 
-{% highlight bat %}
+```bat
 scriptcs addCors.csx -- [storageAccount] [storageAccountKey] [origins]
-{% endhighlight %}
+```
 
 ScriptCS runs also on [Mono](http://www.mono-project.com/), so you could even say this is cross platform. 
 Not as good as Node or Go based solution would have been, but still good enough.  

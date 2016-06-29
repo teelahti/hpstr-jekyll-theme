@@ -24,7 +24,7 @@ Over two hours of debugging did not reveal me why the canvas did not show anythi
 though I visited the drawing function and everything seemed to be in place. My code to 
 draw the canvas used "pagecreate" event as instructed in docs, and looked like this:
 
-{% highlight js %}
+```js
 (function () {
     "use strict";
     var barchartCanvas = $("#graph");
@@ -35,7 +35,7 @@ draw the canvas used "pagecreate" event as instructed in docs, and looked like t
         ksx.refreshReportData(barchartCanvas.data("url"));
     });
 })();
-{% endhighlight %}
+```
 
 Finally I realized what was going on: when jQuery mobile changes a page with an 
 AJAX call, it stores the current page into DOM for later use.What happens here 
@@ -44,7 +44,7 @@ my code happened to update the first found element… which was the cached one,
 not the visible version. To fix this situation I had to change the code to use 
 pagecreate event’s target property as base for all operations, like this:
 
-{% highlight js %}
+```js
 (function () {
     "use strict";
     var last;
@@ -60,6 +60,6 @@ pagecreate event’s target property as base for all operations, like this:
         ksx.refreshReportData(barchartCanvas.data("url"));
     });
 })();
-{% endhighlight %}
+```
 
 Problem solved. This is something you need to remember and understand when using jQuery mobile.

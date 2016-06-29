@@ -17,7 +17,7 @@ while I realized that I can make a generalization out of that: why
 not use any form value in the action method selection process? 
 This way I can avoid code like this:
 
-{% highlight csharp %}
+```csharp
 [HttpPost]
 public ActionResult Fruit(SampleModel model) {
     if (!ModelState.IsValid) {
@@ -34,7 +34,7 @@ public ActionResult Fruit(SampleModel model) {
     TempData["Message"] = "Saved";
     return RedirectToAction("Index");
 }
-{% endhighlight %}
+```
 
 That is not too bad, but when more choices are introduced it gets worse 
 and worse (i.e. more if-then-else's). Solution for this is very similar 
@@ -42,7 +42,7 @@ with the [ButtonAttribute approach](/blog/selecting-mvc-action-method-based-on-t
 introduce an attribute that takes form element name, and list of accepted values. If 
 there is a match the action method is selected, otherwise the search continues. Usage example:
 
-{% highlight csharp %}
+```csharp
 [HttpPost]
 [ActionName("Fruit")]
 [FormValue("SelectedFruit", "Apple")]
@@ -64,7 +64,7 @@ public ActionResult PearOrOrange(FormValueModel model)
     ViewBag.Message = "Selected: " + model.SelectedOFruit;
     return View(model);
 }
-{% endhighlight %}
+```
 
 Beware, that this method has two shortcomings:
 
@@ -80,7 +80,7 @@ Regardless of the shortcomings I still think this is yet another valuable tool t
 
 Here is the full listing for FormValueAttribute:
 
-{% highlight csharp %}
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
@@ -207,4 +207,4 @@ public sealed class FormValueAttribute : ActionMethodSelectorAttribute
         }
     }
 }
-{% endhighlight %}
+```

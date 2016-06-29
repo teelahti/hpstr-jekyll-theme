@@ -18,27 +18,27 @@ When I begun to use JavaScript on daily basis I naturally soon learned to use mo
 and more closures and all that they bring with them. For a while I wrote over and 
 over again code like this:
 
-{% highlight js %}
+```js
 whatever.success(function(data) {
     render(data, context);
 });
 function render(data, context) {
     $.tmpl("tmpl", data).appendTo(context);
 }
-{% endhighlight %}
+```
 
 Then I realized that this is not very JavaScript-like. I guess this was the moment 
 I actually started to understand JavaScript. Since then I have more and more used 
 the power of "this” and currying in JavaScript. Both of these materialize in 
 bind-function, like so:
 
-{% highlight js %}
+```js
 whatever.success(render.bind(context));
 
 function render(data) {
     $.tmpl("tmpl", data).appendTo(this);
 }
-{% endhighlight %}
+```
 
 But opening a page with such code in IE8 brought me back to reality: out of the 
 box [bind works only on certain browsers](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/bind). 
@@ -50,7 +50,7 @@ save someone else's time. Bind function is taken almost directly from
 [excellent Mozilla article](https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/bind), 
 and curry is derived from that.
 
-{% highlight js %}
+```js
 // Function.prototype.bind polyfill from 
 // https://developer.mozilla.org/en/JavaScript/Reference/Global_Objects/Function/bind
 if (!Function.prototype.bind) {
@@ -83,4 +83,4 @@ if (!Function.prototype.curry) {
         return this.bind.apply(this, args.concat(slice.call(arguments)));
     };
 }
-{% endhighlight %}
+```

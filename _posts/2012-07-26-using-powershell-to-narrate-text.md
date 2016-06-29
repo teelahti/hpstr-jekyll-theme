@@ -25,19 +25,19 @@ can easily reference [SpeechSynthesizer](http://msdn.microsoft.com/en-us/library
 class. At the end of this post is the complete PowerShell script I used. To make usage easier 
 I also added an alias creation into my Profile.ps1:
 
-{% highlight PowerShell %}
+```PowerShell
 New-Alias Speak $HOME\Documents\WindowsPowershell\Speak.ps1
-{% endhighlight %}
+```
 
 With this setup I can narrate text and optionally give any installed voice to the narrator. E.g.
 
-{% highlight PowerShell %}
+```PowerShell
 C:\>Speak “Speak this”
-{% endhighlight %}
+```
 
 Here is the PowerShell script Speak.ps1:
 
-{% highlight PowerShell %}
+```PowerShell
 # Create the text to speak (with default)
 $text = "Hello world";
 if ($args.Length -ge 1) 
@@ -68,4 +68,4 @@ if ($args.Length -eq 2)
     }
 }
 $spk.SpeakAsync($text)
-{% endhighlight %}
+```

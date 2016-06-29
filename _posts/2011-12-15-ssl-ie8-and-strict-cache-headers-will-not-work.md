@@ -40,7 +40,7 @@ the browser modes on IE 9 are not 100 % compatible with the actual old browsers)
 
 To prevent caching pages I had a hand made MVC no cache action filter attribute (NoBrowserCacheAttribute) which is registered globally and did this:
 
-{% highlight csharp %}
+```csharp
 // Set all the various headers that control caching
 var cache = filterContext.HttpContext.Response.Cache;
 cache.SetExpires(DateTime.UtcNow.AddDays(-1));
@@ -48,17 +48,17 @@ cache.SetValidUntilExpires(false);
 cache.SetRevalidation(HttpCacheRevalidation.AllCaches);
 cache.SetCacheability(HttpCacheability.NoCache);
 cache.SetNoStore();
-{% endhighlight %}
+```
 
 But IE does not like the Pragma: no-cache header or the Expires: -1 header that 
 yield from the above settings. Here are the settings that fixed the IE issue 
 for me (used these instead of the above settings):
 
-{% highlight csharp %}
+```csharp
 var response = filterContext.HttpContext.Response;
 response.Cache.SetExpires(DateTime.UtcNow);
 response.CacheControl = "private";
-{% endhighlight %}
+```
 
 There are a couple of ways to use these less offensive cache settings per action method basis:
 

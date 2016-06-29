@@ -19,8 +19,8 @@ I noticed a recurring Error event on my event log:
 the fix from a [Technet forum post](http://social.technet.microsoft.com/Forums/en-US/winserver8gen/thread/51432342-0d53-4ab4-b366-2482f95279ff/); 
 Give Network service account full access control rights to the directory:
 
-{% highlight bat %}
+```bat
 %systemroot%\System32\Tasks\Microsoft\Windows\SoftwareProtectionPlatform
-{% endhighlight %}
+```
 
 This fixed the situation immediately. Hope this helps someone else.

@@ -15,19 +15,19 @@ everything works fine. Until today I reorganized some of my [Go](https://golang.
 code to be more idiomatic, meaning that I leverage the native Go package system as it 
 is designed: the only way to reference packages is by their full repository URL:
 
-{% highlight go %}
+```go
 package main
 
 using (
     "myorg.visualstudio.com/DefaultCollection/_git/MyRepo"
 )
-{% endhighlight %}
+```
 
 and you can also load packages with Go get command, like:
 
-{% highlight bash %}
+```bash
 go get myorg.visualstudio.com/DefaultCollection/_git/MyRepo
-{% endhighlight %}
+```
 
 I can (barely) live with the fact that VS Team Services adds the unnecessarily ugly 
 "DefaultCollection" and "_git" in to the URL. But the real problem is that the above 
@@ -51,18 +51,18 @@ neither Gitlab or VS Team Services adds automatically the .git ending to the URL
 therefore go get command never reaches the actual repository. This is fixed in Gitlab 
 since, but issue remains in VS Team Services. The fix is to make the URL even uglier: 
 
-{% highlight go %}
+```go
 package main
 
 using (
     "myorg.visualstudio.com/DefaultCollection/_git/MyRepo.git"
 )
-{% endhighlight %}
+```
 
 and the corresponding go get command:
 
-{% highlight bash %}
+```bash
 go get myorg.visualstudio.com/DefaultCollection/_git/MyRepo.git
-{% endhighlight %}
+```
 
 I hope this helps someone else to fix the problem quicker. 

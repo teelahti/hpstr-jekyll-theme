@@ -18,7 +18,7 @@ but this was not what I was after this time.
 The first option that came into my mind was of course just to subscribe into form submit 
 and disable buttons there like this:
 
-{% highlight js %}
+```js
 // Disable all submit buttons within 
 // the form that is being submitted
 $("form").submit(function () {
@@ -27,13 +27,13 @@ $("form").submit(function () {
     // Re-enable button after some time in case something went wrong
     setTimeout(function () { b.removeAttr("disabled"); }, 3000);
 });
-{% endhighlight %}
+```
 
 This worked like a charm… except that this code acted also if form validation failed, 
 which is far from optimal. So I needed to find a place to hook into jQuery validation pipeline. 
 This is easy if you call .validate() from own JavaScript code, but in ASP.NET MVC jQuery validation is automatically wired up behind the scenes. So the only easy option I found was to slightly change the default MicrosoftMvcJQueryValidation.js file by tampering the default validation options (see MODIFIED: comments below):
 
-{% highlight js %}
+```js
 var options = {
         errorClass: "input-validation-error",
         errorElement: "span",
@@ -70,7 +70,7 @@ var options = {
             $(messageSpan).removeClass("field-validation-error");
         }
     };
-{% endhighlight %}
+```
 
 There are two changes above: hidden elements are ignored by default for easier 
 operation with complex forms (toggle block visibilities), and submitHandler is 

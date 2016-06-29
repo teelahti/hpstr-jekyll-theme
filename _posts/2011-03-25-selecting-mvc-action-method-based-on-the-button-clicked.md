@@ -11,16 +11,16 @@ share: true
 
 Very common problem in form-heavy solutions is to be able to have one HTML form, but two different submit buttons for it. Think "Save" and "Delete":
 
-{% highlight html %}
+```html
 <div id="buttons">
     <button name="Save">Save</button>
     <button name="Delete">Delete</button>
 </div>
-{% endhighlight %}
+```
 
 On controller side this poses a problem: these actions do very different tasks; Save usually validates data and saves it, Delete does not validate and deletes (and so forth). They might also have different access rights. So having these on one action breaks (at least my) principles. Fortunately ASP.NET MVC has a thing called [ActionMethodSelectorAttribute](http://msdn.microsoft.com/en-us/library/system.web.mvc.actionmethodselectorattribute.aspx) that you can extend. With that you can divide the logic into separate action methods, like:
 
-{% highlight csharp %}
+```csharp
 [HttpPost]
 [ActionName("Edit")]
 [Button("Save")]
@@ -39,11 +39,11 @@ public ActionResult Delete(SampleModel model)
     ViewBag.Message = "Delete button clicked and Save action method selected.";
     return View(model);
 }
-{% endhighlight %}
+```
 
 Of course you might want to use constants instead of magic strings for button names. Note, that in the above example the action method name is exactly the same "Edit" for both actions. The underlying ButtonAttribute for the action method selection is listed below, feel free to use it: 
 
-{% highlight csharp %}
+```csharp
 using System;
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
@@ -146,4 +146,4 @@ public sealed class ButtonAttribute : ActionMethodSelectorAttribute
         }
     }
 }
-{% endhighlight %}
+```
