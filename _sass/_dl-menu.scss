@@ -157,7 +157,7 @@
 		-moz-backface-visibility: hidden;
 		backface-visibility: hidden;
 		@media #{$medium} {
-			@include border-radius(3px,3px,3px,3px);
+			border-radius: 3px;
 		}
 	}
 
