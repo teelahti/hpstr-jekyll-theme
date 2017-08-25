@@ -10,7 +10,7 @@ share: true
 
 ## Solution developer/Architect
 
-For over 16 years I have worked as a consultant in customer projects, lately mainly in government and financial sectors. During my career I have specialized in solution architecture, web development, and some MS Server products. I have worked with lots of interesting people on-shore and off-shore, and I get kicks from learning from them and to be able to coach them myself. I enjoy speaking at conferences and other developer events.
+For over 19 years I have worked as a consultant in customer projects, lately mainly in government and financial sectors. During my career I have specialized in solution architecture, web development, and some MS Server products. I have worked with lots of interesting people on-shore and off-shore, and I get kicks from learning from them and to be able to coach them myself. I enjoy speaking at conferences and other developer events.
 
 I'm a strong believer of software quality and I try to enforce that with all the ways I can. At times that is hard in client facing timeboxed projects, but I do not see any other way in trying to keep our industry trustworthy.
 
